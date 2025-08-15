@@ -73,7 +73,42 @@ This backend demonstrates a **scalable and modular architecture** for a real-wor
 
 ## Getting Started
 
-1. **Clone the repository:**
+ **Clone the repository:**
+## Installation
+
 ```bash
-git clone https://github.com/amiraa205/medium_clone_backend.git
-cd medium_clone_backend
+$ pnpm install
+```
+
+## Running the app
+
+```bash
+# development
+$ pnpm run start:dev
+```
+
+## Test
+
+```bash
+# unit tests
+$ pnpm run test
+
+# e2e tests
+$ pnpm run test:e2e
+
+# test coverage
+$ pnpm run test:cov
+```
+
+## Seed
+
+```bash
+# drop db
+$ pnpm db:drop
+
+# migrate db
+$ pnpm db:migrate
+
+# seed data
+$ pnpm db:seed
+```
